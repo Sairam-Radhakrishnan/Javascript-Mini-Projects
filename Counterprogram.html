@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Counter Program</title>
+</head>
+<body>
+
+
+<a class="git" href="https://github.com/Sairam-Radhakrishnan" target=”_blank” >Sairam.R/11-03-2024 </a>
+<label class="CP"> Counter Program</label>
+<label id = "zero"> 0</label>
+ <div id="div">
+   <button id="plus" class="buttons">+ Increase </button>
+   <button id="minus" class="buttons">-  Decrease </button>
+   <button id="reset" class="buttons"> Reset </button>
+ </div>
+
+ 
+
+</body>
+</html>
+
+
+<script>
+ const plus = document.getElementById("plus");
+ const minus = document.getElementById("minus");
+ const reset = document.getElementById("reset");
+ const zero = document.getElementById("zero");
+
+ let count = 0;
+
+ plus.onclick =  function(){
+  count++;
+  zero.textContent = count;
+ }
+
+minus.onclick = function(){
+  count--;
+  zero.textContent = count;
+}
+
+reset.onclick = function(){
+  count = 0
+  zero.textContent = count
+}
+</script>
+
+<style>
+
+#zero{
+  color: rgb(0, 0, 0);
+  display: block;
+  text-align: center;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 150px;
+
+}
+.CP{color: rgb(0, 0, 0);
+  display: block;
+  text-align: center;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;}
+#div{
+ display: block;
+ text-align: center;
+ margin-left: 30px;
+ margin-right: 50px;
+ margin-top: 15px;
+ margin-bottom: 15px;
+
+
+
+
+
+
+}
+.git{
+  color: rgb(0, 0, 0);
+  display: block;
+  
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.buttons{
+  font-family: Arial, Helvetica, sans-serif;
+border: none;
+background-color: greenyellow;
+border-radius: 5px;
+color: white;
+color-scheme: black;
+box-shadow: inset;
+font-size: 50px;
+padding: 10px,20px;
+border-radius: 5px;
+cursor: pointer;
+
+
+}
+</style>
