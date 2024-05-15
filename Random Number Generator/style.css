@@ -1,0 +1,36 @@
+
+body {
+    font-family: Verdana;
+    text-align: center;
+    
+}
+
+#label {
+    font-size: 5em;
+    margin-top: 8.5em;
+    margin-bottom: 5em;
+    text-align: center;
+}
+
+
+#h1{
+    font-family: Verdana;
+    margin-bottom: 5em;
+
+}
+
+
+
+
+#button{
+    font-size: 2em;
+    
+    color: rgb(253, 253, 253);
+    width: 4.5em;
+    height: 2.5em;
+    background-color: rgb(225, 255, 0);
+    border-radius: 20px;
+    border: none;
+    margin-top: 8.5em;
+}
+
