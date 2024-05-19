@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsla(0, 100%, 10%, 0.144);
+    
+}
+#cal{
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    width :30em;
+    height: auto ;
+    overflow:hidden;
+    margin-top: 115px;
+   
+}
+
+
+.h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    margin-bottom: 0%;
+    margin-top: 5px;
+}
+    
+#display{
+    
+    
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    color:white;
+    background-color: hsl(0, 1%, 23%);
+
+
+}
+#key{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+button{
+    width: 90;
+    height: 90px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0,8%, 30%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(8, 8%, 40%);
+    }
+button:active{
+    background-color: hsl (8,8%, 50%);}
+
+.operator{
+    background-color: orange;
+}
+
+
+button.operator:hover{
+    background-color: hsl(69, 66%, 44%);
+    }
+button:active{
+    background-color: hsla(69, 93%, 37%, 0.63);}
