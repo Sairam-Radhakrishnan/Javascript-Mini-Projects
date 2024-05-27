@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+nav{
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    margin: 0px;
+    padding: 0%;
+    
+
+}
+
+.brand,.logo{
+    text-align: center;
+    margin: 0px;
+    padding: 0%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    display: block;
+    align-items: center;
+    
+    
+}
+.pro{
+    padding: 15px;
+}
+
+h1{
+    display: inline;
+    
+}
+.about{
+    font-size: 20px;
+}
+
+.imgg{
+    height: 220px;
+    width: 220px;
+    align-items: center;
+}
+.box{
+    border-color: rgba(0, 0, 0, 0.897);
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 320px;
+    padding: 15px;
+    
+
+}
+.box:hover{
+    color: white;
+    background-color: black;
+}
+.products{
+    text-align: center;
+}
+h3,h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+.about{
+    text-align: center;
+    margin-top: 55px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 25px;
+    font-size: 35px;
+
+}
+.contact{
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 10px;
+    font-size: large;
+    font-size: 35px;
+
+
+
+}
+.git{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+    
